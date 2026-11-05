@@ -1,0 +1,15 @@
+.DS_Store
+._*
+__MACOSX/
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+slurm-*.out
+*.out
+*.err
+*.log
+simulation/results_quick/
+real_data/results_regenerated/
+

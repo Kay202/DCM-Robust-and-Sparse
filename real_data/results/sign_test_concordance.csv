@@ -1,0 +1,7 @@
+"comparison","n","agree","agree_rate","p_value"
+"intercept: all 22",22,19,0.864,0.000428
+"intercept: credible only",9,9,1,0.00195
+"gender: all 22",22,18,0.818,0.00217
+"gender: credible only",1,1,1,0.5
+"age: all 22",22,16,0.727,0.0262
+"age: credible only",3,3,1,0.125

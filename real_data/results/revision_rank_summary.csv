@@ -1,0 +1,2 @@
+"task_version","subject_runs","dcm_input_rank_min","dcm_input_rank_median","dcm_input_rank_max","dcm_input_full_rank_fraction","glm_task_rank_min","glm_task_rank_median","glm_task_rank_max","glm_task_full_rank_fraction"
+"not_merged",192,2,3,3,1,21,22,27,0.609375

@@ -1,0 +1,2 @@
+"task_version","subject_runs","free_energy_median","free_energy_q1","free_energy_q3","variance_explained_median","variance_explained_q1","variance_explained_q3","variance_explained_min","residual_rms_median","covariance_finite_fraction","covariance_psd_fraction"
+"not_merged",192,-1310.43014643283,-1717.0045156926,-886.14159370945,3.36204512720784,1.35785859059854,8.86722395019128,0.0413947268664283,0.204776198033878,1,1

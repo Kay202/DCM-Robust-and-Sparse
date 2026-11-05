@@ -1,0 +1,13 @@
+"task_version","run","condition","n_subjects","subjects_with_zero_events","min_events","median_events","max_events","total_events"
+"not_merged",1,"GainDom",48,0,10,36,36,1130
+"not_merged",1,"LossDom",48,0,1,1,8,209
+"not_merged",1,"Middle",48,0,27,27,46,1733
+"not_merged",2,"GainDom",48,0,10,32,32,1030
+"not_merged",2,"LossDom",48,25,0,0,8,184
+"not_merged",2,"Middle",48,0,32,32,46,1858
+"not_merged",3,"GainDom",48,0,9,36,36,1107
+"not_merged",3,"LossDom",48,25,0,0,11,253
+"not_merged",3,"Middle",48,0,28,28,44,1712
+"not_merged",4,"GainDom",48,0,7,32,32,961
+"not_merged",4,"LossDom",48,25,0,0,9,207
+"not_merged",4,"Middle",48,0,32,32,48,1904

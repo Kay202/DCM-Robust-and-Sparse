@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying manuscript and this repository."
+title: "Robust and Sparse Group Dynamic Causal Modeling"
+type: software
+authors:
+  - family-names: Arhin
+    given-names: Godfred
+  - family-names: Sanyal
+    given-names: Nilotpal
+repository-code: "https://github.com/Kay202/DCM-Robust-and-Sparse"
+license: GPL-2.0-or-later
+version: 1.0.0
+date-released: 2026-11-05
+

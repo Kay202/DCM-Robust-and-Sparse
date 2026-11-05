@@ -1,0 +1,73 @@
+\begin{table}[tbp]
+\centering
+\small
+\caption{Group-average (intercept) estimates of all $22$ DCM parameters under standard \emph{SPM-PEB} and the \emph{Proposed} (robust $+$ sparse) model. $A(i,j)$ denotes the intrinsic connection from region $j$ to region $i$, and $B(i,j,k)$ denotes input $k$ modulating that connection (region indices $1$--$4$ are vmPFC, vStr, amygdala, and aIns). \emph{SPM-PEB} reports a posterior mean $\pm$ SD, with \textsuperscript{$\ast$} marking $|\mathrm{E}p|>3\,\mathrm{SD}$. The \emph{Proposed} model reports a coefficient estimate $\pm$ conditional Laplace SD and a PIP, with bold PIPs exceeding $0.5$.}
+\label{tab:realparams}
+\begin{tabular}{l r@{\,$\pm$\,}l r@{\,$\pm$\,}l c}
+\toprule
+Parameter & \multicolumn{2}{c}{\emph{SPM-PEB} ($\mathrm{E}p\pm$SD)} & \multicolumn{2}{c}{\emph{Proposed} ($\widehat{\beta}\pm$SD)} & \emph{Proposed} PIP \\
+\midrule
+A(1,1) & -0.464\textsuperscript{$\ast$} & 0.033 & -0.303 & 0.027 & \textbf{0.995} \\
+A(2,1) & +0.101\textsuperscript{$\ast$} & 0.029 & +0.098 & 0.016 & 0.052 \\
+A(3,1) & +0.121\textsuperscript{$\ast$} & 0.029 & +0.117 & 0.011 & 0.091 \\
+A(4,1) & +0.135\textsuperscript{$\ast$} & 0.029 & +0.121 & 0.018 & 0.129 \\
+A(1,2) & +0.182\textsuperscript{$\ast$} & 0.032 & +0.128 & 0.023 & 0.184 \\
+A(2,2) & -0.362\textsuperscript{$\ast$} & 0.035 & -0.235 & 0.023 & \textbf{0.896} \\
+A(3,2) & +0.067 & 0.031 & +0.059 & 0.023 & 0.016 \\
+A(4,2) & +0.148\textsuperscript{$\ast$} & 0.031 & +0.141 & 0.029 & 0.306 \\
+A(1,3) & -0.029 & 0.032 & +0.016 & 0.022 & 0.002 \\
+A(2,3) & +0.003 & 0.031 & +0.032 & 0.023 & 0.005 \\
+A(3,3) & -0.430\textsuperscript{$\ast$} & 0.036 & -0.220 & 0.029 & \textbf{0.802} \\
+A(4,3) & +0.031 & 0.031 & +0.071 & 0.019 & 0.021 \\
+A(1,4) & -0.015 & 0.032 & +0.022 & 0.021 & 0.003 \\
+A(2,4) & +0.006 & 0.031 & +0.026 & 0.023 & 0.004 \\
+A(3,4) & +0.008 & 0.031 & +0.071 & 0.017 & 0.018 \\
+A(4,4) & -0.327\textsuperscript{$\ast$} & 0.035 & -0.207 & 0.027 & \textbf{0.740} \\
+B(2,1,1) & +0.010 & 0.227 & +0.017 & 0.036 & 0.007 \\
+B(1,2,1) & +0.144 & 0.232 & +0.010 & 0.061 & 0.080 \\
+B(1,3,2) & +0.040 & 0.274 & -0.002 & 0.059 & 0.048 \\
+B(4,3,2) & +0.041 & 0.251 & +0.015 & 0.046 & 0.013 \\
+B(1,4,2) & -0.398 & 0.269 & -0.015 & 0.056 & 0.038 \\
+B(3,4,2) & +0.082 & 0.249 & +0.016 & 0.049 & 0.020 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[tbp]
+\centering
+\small
+\caption{Gender and age covariate effects on all $22$ NARPS DCM parameters under standard \emph{SPM-PEB} and the \emph{Proposed} (robust $+$ sparse) model. Gender is coded as M$-$F and age is measured per standard deviation. \emph{SPM-PEB} reports a posterior mean $\pm$ SD. The \emph{Proposed} model reports a coefficient estimate $\pm$ conditional Laplace SD and a PIP, with bold PIPs exceeding $0.5$. Effects on diagonal $A$ parameters are on SPM's internal log-scaling scale. Parameter naming follows Table~\ref{tab:realparams}.}
+\label{tab:realcov}
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{l ccc ccc}
+\toprule
+ & \multicolumn{3}{c}{Gender (M$-$F)} & \multicolumn{3}{c}{Age (per SD)} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Parameter & PEB\,$\pm$\,SD & \emph{Proposed} $\widehat{\beta}\pm$SD & PIP & PEB\,$\pm$\,SD & \emph{Proposed} $\widehat{\beta}\pm$SD & PIP \\
+\midrule
+A(1,1) & $-0.002\!\pm\!0.060$ & $+0.004\!\pm\!0.024$ & 0.018 & $+0.195\!\pm\!0.033$ & $+0.051\!\pm\!0.019$ & \textbf{0.577} \\
+A(2,1) & $-0.048\!\pm\!0.052$ & $+0.008\!\pm\!0.021$ & 0.018 & $-0.083\!\pm\!0.028$ & $-0.042\!\pm\!0.015$ & 0.081 \\
+A(3,1) & $+0.011\!\pm\!0.052$ & $+0.002\!\pm\!0.017$ & 0.003 & $+0.007\!\pm\!0.028$ & $+0.008\!\pm\!0.011$ & 0.001 \\
+A(4,1) & $-0.014\!\pm\!0.052$ & $-0.013\!\pm\!0.022$ & 0.020 & $-0.041\!\pm\!0.028$ & $-0.020\!\pm\!0.015$ & 0.005 \\
+A(1,2) & $-0.006\!\pm\!0.057$ & $-0.017\!\pm\!0.023$ & 0.082 & $+0.014\!\pm\!0.031$ & $-0.014\!\pm\!0.017$ & 0.004 \\
+A(2,2) & $-0.080\!\pm\!0.063$ & $-0.002\!\pm\!0.023$ & 0.009 & $-0.086\!\pm\!0.033$ & $-0.012\!\pm\!0.018$ & 0.006 \\
+A(3,2) & $+0.115\!\pm\!0.056$ & $+0.041\!\pm\!0.023$ & \textbf{0.832} & $+0.051\!\pm\!0.030$ & $+0.025\!\pm\!0.017$ & 0.009 \\
+A(4,2) & $+0.114\!\pm\!0.056$ & $+0.033\!\pm\!0.024$ & 0.208 & $+0.039\!\pm\!0.030$ & $+0.007\!\pm\!0.020$ & 0.003 \\
+A(1,3) & $+0.136\!\pm\!0.059$ & $+0.008\!\pm\!0.022$ & 0.012 & $+0.029\!\pm\!0.032$ & $+0.005\!\pm\!0.017$ & 0.002 \\
+A(2,3) & $+0.060\!\pm\!0.057$ & $+0.022\!\pm\!0.022$ & 0.081 & $+0.031\!\pm\!0.031$ & $+0.009\!\pm\!0.018$ & 0.004 \\
+A(3,3) & $+0.099\!\pm\!0.064$ & $+0.012\!\pm\!0.024$ & 0.079 & $+0.126\!\pm\!0.035$ & $+0.030\!\pm\!0.019$ & 0.077 \\
+A(4,3) & $+0.042\!\pm\!0.057$ & $+0.030\!\pm\!0.021$ & 0.139 & $+0.006\!\pm\!0.031$ & $-0.003\!\pm\!0.016$ & 0.001 \\
+A(1,4) & $-0.117\!\pm\!0.058$ & $-0.005\!\pm\!0.022$ & 0.007 & $+0.007\!\pm\!0.031$ & $-0.004\!\pm\!0.016$ & 0.001 \\
+A(2,4) & $+0.055\!\pm\!0.056$ & $+0.019\!\pm\!0.022$ & 0.057 & $+0.061\!\pm\!0.030$ & $+0.031\!\pm\!0.018$ & 0.030 \\
+A(3,4) & $-0.055\!\pm\!0.056$ & $+0.004\!\pm\!0.020$ & 0.007 & $+0.012\!\pm\!0.031$ & $+0.001\!\pm\!0.016$ & 0.002 \\
+A(4,4) & $+0.109\!\pm\!0.063$ & $+0.014\!\pm\!0.024$ & 0.079 & $-0.018\!\pm\!0.035$ & $+0.006\!\pm\!0.019$ & 0.003 \\
+B(2,1,1) & $+0.010\!\pm\!0.411$ & $+0.002\!\pm\!0.025$ & 0.033 & $+0.031\!\pm\!0.217$ & $-0.000\!\pm\!0.022$ & 0.006 \\
+B(1,2,1) & $+0.050\!\pm\!0.421$ & $+0.003\!\pm\!0.027$ & 0.357 & $+0.172\!\pm\!0.222$ & $+0.275\!\pm\!0.091$ & 0.485 \\
+B(1,3,2) & $-0.280\!\pm\!0.493$ & $-0.004\!\pm\!0.027$ & 0.390 & $-0.201\!\pm\!0.262$ & $-0.004\!\pm\!0.026$ & 0.156 \\
+B(4,3,2) & $+0.017\!\pm\!0.453$ & $-0.001\!\pm\!0.026$ & 0.070 & $+0.056\!\pm\!0.234$ & $-0.004\!\pm\!0.024$ & 0.017 \\
+B(1,4,2) & $-0.569\!\pm\!0.484$ & $-0.226\!\pm\!0.096$ & 0.160 & $+0.178\!\pm\!0.257$ & $+0.001\!\pm\!0.026$ & 0.062 \\
+B(3,4,2) & $-0.211\!\pm\!0.449$ & $-0.386\!\pm\!0.098$ & 0.484 & $+0.012\!\pm\!0.236$ & $+0.004\!\pm\!0.024$ & 0.021 \\
+\bottomrule
+\end{tabular}
+\end{table}
+

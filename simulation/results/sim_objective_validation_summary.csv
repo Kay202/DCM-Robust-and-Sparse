@@ -1,0 +1,2 @@
+"n","alpha_bias","alpha_rmse","max_log_alpha_gradient","max_beta_gradient","convergence_rate","objective_monotonicity_rate","q_monotonicity_rate"
+50,-0.00327897287147559,0.0111266916081219,2.25213625526521e-05,0.000826406676424085,1,1,1

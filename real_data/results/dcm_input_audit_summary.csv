@@ -1,0 +1,2 @@
+rows_audited,rows_flagged,rows_with_likely_32_bin_offset,rows_with_other_misalignment,scan_resolution_DCM_rows,microtime_DCM_rows
+576,501,501,0,576,0

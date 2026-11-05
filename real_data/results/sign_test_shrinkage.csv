@@ -1,0 +1,4 @@
+"comparison","n","robust_smaller","rate","p_value"
+"intercept",22,16,0.727,0.0262
+"gender",22,19,0.864,0.000428
+"age",22,19,0.864,0.000428

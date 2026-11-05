@@ -1,0 +1,6 @@
+"arm","n_fits","n_failed","n_converged","convergence_rate","objective_monotonicity_rate","q_monotonicity_rate","maximum_beta_score","maximum_pip_mcse","maximum_between_chain_pip_range","laplace_regularization_rate"
+"local_slab",1000,0,1000,1,1,NA,NA,0.020346461,0.156679837,0
+"proposed",1000,0,1000,1,1,1,0.000999386,0.035765823,0.309066383,0
+"robust_only",1000,0,1000,1,1,NA,0.096083734,NA,NA,0
+"sparse_only",1000,0,1000,1,1,1,0.000999168,0.033248622,0.348514224,0
+"spm_peb",1000,0,1000,1,NA,NA,NA,NA,NA,0
